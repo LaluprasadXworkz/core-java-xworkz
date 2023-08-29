@@ -7,7 +7,7 @@ class ApartmentExecutor{
 		apartement.noOfFoors=45;
 		apartement.noOfTwoBhkFlats=180;
 		apartement.noOfThreeBhkFlats=90;
-		System.out.println("------------------------------------------------");
+		
 		System.out.println("Apartment Id "+apartement.apartementId);
 		System.out.println("Apartement Name"+apartement.apartementName);
 		System.out.println("Location is "+apartement.location);
