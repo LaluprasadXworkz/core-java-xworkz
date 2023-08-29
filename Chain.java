@@ -4,7 +4,7 @@ class Chain{
 	String shopName;
 	String chainMaterial;
 	int price;
-	//int weigth;
+	int weigthInGrams;
 	
 	public static void shopChain(){
 		System.out.println("Chain is sold");

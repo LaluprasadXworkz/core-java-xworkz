@@ -1,7 +1,7 @@
 class Fastrack{
 	int fastrackId;
 	String productName;
-	String type;
+	String caseMaterial;
 	String color;
 	int price;
 	

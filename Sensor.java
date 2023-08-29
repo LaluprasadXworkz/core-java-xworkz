@@ -1,10 +1,10 @@
 class Sensor{
 	
-	String sensorName;
-	String type;
+	int sensorId;
+	String typeOfSensor;
 	int sensetivity;
-	int price;
-	int range;
+	String environmental;
+	String outputType;
 	public static void sensorShop(){
 		System.out.println("Sensor ----..");
 	}
