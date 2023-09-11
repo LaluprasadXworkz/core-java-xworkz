@@ -1,0 +1,12 @@
+class OttPlatfrom{
+	public void getMovies(String[] movies){
+		
+		System.out.println("List of movies");
+		
+		for(int kannada=0;kannada<movies.length;kannada++){
+		System.out.println(movies[kannada]);
+		
+	}
+	
+	}
+}
