@@ -1,0 +1,2 @@
+class Devandra extends Trainer{
+}
