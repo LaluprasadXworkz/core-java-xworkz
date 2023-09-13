@@ -1,3 +1,0 @@
-class  Netflix extends OttPlatfrom{
-
-}

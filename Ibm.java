@@ -1,2 +1,0 @@
-class Ibm extends BestCompny{
-}

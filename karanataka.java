@@ -1,2 +1,0 @@
-class karanataka  extends State{
-}

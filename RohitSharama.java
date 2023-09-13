@@ -1,2 +1,0 @@
-class RohitSharama extends Cricker{
-}
