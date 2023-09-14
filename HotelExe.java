@@ -12,7 +12,9 @@ class HotelExe{
 	hotel.foodName("Jolada Roti");
 	hotel.foodName("Butter Chicken");
 	hotel.foodName("Biryani");
-	hotel.foodName("Chicken");
+	//hotel.foodName("Chicken");
+	hotel.foodName("Bisi Bele Bath");
+	//hotel.foodName("Chai");
 		
 	hotel.getDisplay();
 	}

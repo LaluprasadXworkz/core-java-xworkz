@@ -3,6 +3,7 @@ class SpotifyExe{
 	Spotify	spotify=new  Spotify();
 	
 	spotify.addSong("Chaleya");
+	spotify.addSong("Chaleya");
 	spotify.addSong("Zihaal e Miskin");
 	spotify.addSong("Dil Jhoom");
 	spotify.addSong("Apna Bana Le");
@@ -12,7 +13,9 @@ class SpotifyExe{
 	spotify.addSong("Tere Sang Yaara");
 	spotify.addSong("Sapna Jahan");
 	spotify.addSong("Ra Ra Rakkamma");
-	spotify.addSong("Kalalo Kooda");
+	//spotify.addSong("Kalalo Kooda");
+	//spotify.addSong("Salam ");
+	
 	
 	spotify.getDisplay();
 	}

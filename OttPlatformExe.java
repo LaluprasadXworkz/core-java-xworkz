@@ -8,6 +8,7 @@ class OttPlatformExe{
 		ott.addMovieName("KGF");
 		ott.addMovieName("KGF 2");
 		ott.addMovieName("PUSHPA");
+		ott.addMovieName("RRR");
 		ott.getDisplay();
 	}
 }

@@ -4,12 +4,32 @@ class ChatShop{
 	
 	public boolean addChatName(String name){
 		boolean isAdded =false;
+		if(chatName.length>index  ){
 		if( chatName != null){
+		boolean exists=checkChatName(name);
+		if(exists==false){
+			
 		chatName[index]=name;
 		index ++;
 		isAdded=true;
+		}else{
+			System.out.println(name+"Already exested");
 		}
+		}
+		}else{System.out.println("Array Index Out Of BoundsException:"+chatName.length);}
+					
 		return isAdded;
+	}
+	
+	public boolean checkChatName(String name){
+		boolean exists=false;
+		for(int index=0;index<chatName.length;index++){
+			if(chatName[index]==name){
+				exists=true;
+				
+			}
+		}
+		return exists;
 	}
 	
 	public void getDisplay(){

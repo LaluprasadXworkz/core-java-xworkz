@@ -12,7 +12,9 @@ class ChatShopExe{
 		chat.addChatName("Cheese Puff");
 		chat.addChatName("Puff");
 		chat.addChatName("Masala Pav Bhaji");
-		chat.addChatName("Vada Pav");
+		chat.addChatName("Pani puri");
+		//chat.addChatName("Vada Pav");
+		//chat.addChatName("katore chat");
 		
 		chat.getDisplay();
 	}
