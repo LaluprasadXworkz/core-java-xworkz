@@ -1,0 +1,2 @@
+class OfficeInterior extends Interior{
+}

@@ -28,6 +28,36 @@ class Interior{
 		return exists;
 	}
 	
+	public void deleteMeterialNames(String name){
+		String newMeterialNames[]=new String[meterialNames.length-1];
+		int ind=0;
+		for(int index=0;index<meterialNames.length;index++){
+			if(meterialNames[index]!=name){
+				newMeterialNames[ind++]=meterialNames[index];
+				
+			}
+		}
+		System.out.println("the deleted Meterials : "+name);
+		System.out.println("Updated  of Meterials :");
+		for(int index=0;index<newMeterialNames.length;index++){
+			System.out.println(newMeterialNames[index]);
+			
+		}
+	}
+	
+	public String searchMeterialName(String name){
+		String exists=null;
+		
+		for(int index=0;index<meterialNames.length;index++){
+			if(meterialNames[index]==name){
+				exists=meterialNames[index];
+				
+			}
+		}
+		System.out.println("The Meterial  is available : "+exists);
+		return exists;
+	}
+	
 	public void getDisplay(){
 		System.out.println("list of Meterial Names:");
 		for(int index=0;index<meterialNames.length;index++){

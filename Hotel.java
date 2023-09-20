@@ -28,6 +28,38 @@ class Hotel{
 		}
 		return exists;
 	}
+	public boolean deleteNamesFood(String name){
+		boolean isDeleted =false;
+		String newMenu[]=new String[menu.length-1];
+		int ind=0;
+		for(int index=0;index<menu.length;index++){
+			if(menu[index]!=name){
+				newMenu[ind++]=menu[index];
+				isDeleted=true;
+			}
+		}
+		System.out.println("the deleted Food name: "+name);
+		System.out.println("Updated  of Hotel menu:");
+		for(int index=0;index<newMenu.length;index++){
+			System.out.println(newMenu[index]);
+			
+		}
+		return isDeleted;
+	}
+	
+	public String searchFoodName(String name){
+		String exists=null;
+		
+		for(int index=0;index<menu.length;index++){
+			if(menu[index]==name){
+				exists=menu[index];
+				
+			}
+		}
+		System.out.println("The food is available : "+exists);
+		return exists;
+	}
+	
 	
 	public void getDisplay(){
 		System.out.println("list of Hotel menu:");
