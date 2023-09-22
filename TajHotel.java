@@ -1,2 +1,0 @@
-class TajHotel extends Hotel{
-}

@@ -1,2 +1,0 @@
-class LoveSongs extends Spotify{
-}
